@@ -1,0 +1,1 @@
+25. [Full Bleed Blog Layout](https://jsfiddle.net/j8w6v3mh/)

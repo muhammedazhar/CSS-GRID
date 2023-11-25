@@ -1,0 +1,1 @@
+13. [Using minmax() for Responsive Grids](https://jsfiddle.net/xthszm2j/)

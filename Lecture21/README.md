@@ -1,0 +1,10 @@
+21. Flexbox vs CSS Grid:
+    - [Axis Flipping](https://jsfiddle.net/pt8hym9s/)
+    - [Controls on Right](https://jsfiddle.net/4o7gavuj/)
+    - [Flex on Item](https://jsfiddle.net/1u264ftd/)
+    - [Perfectly Centered](https://jsfiddle.net/sgbrtrjo/)
+    - [Self Control](https://jsfiddle.net/c6gg8pkn/)
+    - [Stacked Layout](https://jsfiddle.net/mnfm1sw0/)
+    - [Unknown Content Size](https://jsfiddle.net/4ze02bkj/)
+    - [Unknown Number of Items](https://jsfiddle.net/Lg7r3jmy/)
+    - [Variable Widths on Each Row](https://jsfiddle.net/qymhootd/)

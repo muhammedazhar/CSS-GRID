@@ -1,0 +1,1 @@
+08. [CSS Grid repeat function](https://jsfiddle.net/8f8xyx86/)

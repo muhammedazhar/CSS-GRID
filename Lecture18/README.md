@@ -1,0 +1,1 @@
+18. [Re-ordering Grid Items](https://jsfiddle.net/uscf9mk0/)
