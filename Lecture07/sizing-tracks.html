@@ -31,6 +31,11 @@
         .container {
             display: grid;
             grid-gap: 20px;
+            /* Setting border to understand the grid layout */
+            border: 10px solid var(--yellow);
+            /* fr - Fractional Units to equally distribute available space in a grid*/
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            /* Note: fr doesn't work on rows if the height isn't specified */
         }
     </style>
 </body>
