@@ -52,8 +52,10 @@
         .star {
             /* Setting backgroud colour to understand the changes. */
             background: #BADA55;
-            /* Continuation of previous class (Lecture 09) */
-            grid-column: span 2;
+            /* Explicitly telling the grid element to start from specific track. */
+            grid-column-start: 1;
+            /* Explicitly telling the grid element to end at specific track. */
+            grid-column-end: 4;
         }
     </style>
 </body>
