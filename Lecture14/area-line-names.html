@@ -44,8 +44,23 @@
 
     <style>
         .container {
+            /* Setting the display property of the .container element to a grid container. */
             display: grid;
+            /* Setting the gap (spacing) between grid items to 20 pixels. */
             grid-gap: 20px;
+            /* Defining named grid areas. It creates a 4x8 grid with alternating "star" and "moon" areas. */
+            grid-template-areas: 
+                "star  star  star  star  moon  moon  moon  moon"
+                "star  star  star  star  moon  moon  moon  moon"
+                "star  star  star  star  moon  moon  moon  moon"
+                "star  star  star  star  moon  moon  moon  moon"
+            ;
+        }
+        .item3 {
+            /* Specifying the grid item with the class .item3 should span from the "star-start" line to the "moon-end" line horizontally. */
+            grid-column: star-start / moon-end;
+            /* Specifiying the grid item with the class .item3 should end at the "star-end" line vertically. */
+            grid-row-end: star-end;
         }
     </style>
 </body>
