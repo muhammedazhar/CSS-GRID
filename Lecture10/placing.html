@@ -48,13 +48,15 @@
             display: grid;
             grid-gap: 20px;
             grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(6, 1fr);
         }
         .star {
             /* Setting backgroud colour to understand the changes. */
             background: #BADA55;
             /* Explicitly telling the grid element to start and end in a single line. */
             grid-column: 1 / -1;
-            /* Note: you can also specify the grid to where to end. Here '-1' means last track line in that column. */
+            grid-row: 1 / -4;
+            /* Note: you can also specify the grid to where to end. Here '-1' and '-4' are shorthand notations to where to end counting backwards. */
         }
     </style>
 </body>
