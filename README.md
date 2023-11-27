@@ -10,8 +10,6 @@ Hey! These are the starter files and finished solutions. Grab the full course ov
 
 Not sure why this is happening, but try these commands instead:
 
-**windows:** `npm run start:win32`
-
 **mac and linux:** `start:darwin:linux`
 
 Very few people get this, but please contact me if you find out why `npm start` command isn't running.
