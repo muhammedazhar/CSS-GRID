@@ -29,6 +29,35 @@
         .container {
             display: grid;
             grid-gap: 20px;
+            /* Setting grid tracks for the grid areas */
+            grid-template-columns: 1fr 500px 1fr;
+            grid-template-rows: 150px 150px 100px;
+            /* The grid-template-areas property allows to define named grid areas, 
+            making it easier to create a layout by referring to these named areas 
+            rather than individual grid lines or cells. */
+            /* Initializing grid areas names within grid track reference */
+            grid-template-areas: 
+                "sidebar-1  content  sidebar-2"
+                "sidebar-1  content  sidebar-2"
+                "footer  footer  footer"
+            ;
+        }
+        /* Setting grid areas without explicit values using grid area names */
+        /* Making footer class as footer area */
+        .footer {
+            grid-area: footer;
+        }
+        /* Making item1 class as sidebar-1 area */
+        .item1 {
+            grid-area: sidebar-1;
+        }
+        /* Making item2 class as content area */
+        .item2 {
+            grid-area: content;
+        }
+        /* Making item3 class as sidebar-3 area */
+        .item3 {
+            grid-area: sidebar-2;
         }
     </style>
 </body>
