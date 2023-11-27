@@ -30,7 +30,7 @@
             display: grid;
             grid-gap: 20px;
             /* Setting grid tracks for the grid areas */
-            grid-template-columns: 1fr 500px 1fr;
+            grid-template-columns: 1fr 10fr 1fr;
             grid-template-rows: 150px 150px 100px;
             /* The grid-template-areas property allows to define named grid areas, 
             making it easier to create a layout by referring to these named areas 
@@ -58,6 +58,16 @@
         /* Making item3 class as sidebar-3 area */
         .item3 {
             grid-area: sidebar-2;
+        }
+        /* Adding media query to redefine the grid areas */
+        @media screen and (max-width: 700px) {
+            .container {
+                grid-template-areas: 
+                    "sidebar-1  content  content"
+                    "sidebar-2  content  content"
+                    "footer  footer  footer"
+                ;
+            }
         }
     </style>
 </body>
