@@ -21,7 +21,9 @@
             display: grid;
             grid-gap: 20px;
             border: 10px solid var(--yellow);
-            grid-template-columns: repeat(auto-fill, 150px);
+            /* The minmax function in CSS Grid is used to define flexible size range for a grid track. */
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            /* Note: syntax declaration for minmax(minimum, maximum) */
         }
     </style>
 </body>
