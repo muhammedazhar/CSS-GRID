@@ -46,8 +46,37 @@
         .container {
             display: grid;
             grid-gap: 20px;
+            /*
             grid-template-columns: 1fr 500px 1fr;
+            */
+            grid-template-columns: 
+                /* 'sidebar-start' is a named grid line that starts
+                at the left edge of the grid item. */
+                [sidebar-start site-left] 1fr
+                /* 'sidebar-end' is a named grid line that ends the
+                first column, and 'content-start' is the named grid line
+                that starts the second column. */
+                [sidebar-end content-start] 500px
+                /* 'site-right' is a named grid line that ends the third column. */
+                [content-end] 1fr [site-right]
+            ;
+            grid-template-rows:
+                [content-top] repeat(10, auto) 
+                [content-bottom]
+            ;
+            /*
             grid-template-rows: repeat(10, auto);
+            */
+        }
+        .item3 {
+            /* Setting background color to identify changes */
+            background: slateblue;
+            /* Setting predefined values */
+            grid-column: content-start;
+            grid-row: content-top / content-bottom;
+            /*
+            grid-row: 1 / span 10;
+            */
         }
     </style>
 </body>
