@@ -86,6 +86,37 @@
         .container {
             display: grid;
             grid-gap: 20px;
+            /* Coding starts from here. */
+            grid-template-columns: repeat(10, 1fr);
+            /* The dense will tries to fill in the gaps in a more compact way. */
+            grid-auto-flow: dense;
+        }
+        /* 
+            In CSS, :nth-child is a pseudo-class that selects elements
+            based on their position among a group of siblings.
+            The :nth-child(6n) selector, in particular, targets elements
+            that are the sixth child, then every subsequent sixth child.
+        */
+        .item:nth-child(6n) {
+            /* Setting background color to distinguish the layout. */
+            background: slateblue;
+            /* Spaning 6 elements. */
+            grid-column: span 6;
+        }
+        /* Adding more :nth-child() to increase randomness. */
+        .item:nth-child(7n) {
+            background: lightgreen;
+            grid-column: span 4;
+        }
+        .item:nth-child(9n) {
+            background: hotpink;
+            grid-row: span 2;
+        }
+        /* Making '.item18' selector more specific to achieve higher precedence. */
+        body .container .item18 {
+            /* The '!important' keyword will take precedence. But please avoid using it. */
+            /* background: tomato !important; */
+            background: tomato;
         }
     </style>
 </body>
