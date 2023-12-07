@@ -71,6 +71,18 @@
             display: grid;
             grid-gap: 20px;
             grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(4, 100px);
+            /* The 'justify-items' works exactly like Doc's text justification. */
+            justify-items: center;
+            /* The 'align-items' works exactly like the vertical alignment of a single line of text in an HTML element. */
+            align-items: center;
+            /* The 'place-items' is an alternative for both 'justify-items' and 'align-items'. */
+            place-items: center center;
+            /* Here, first center is horizontal and seccond one is vertical. */
+        }
+        /* Setting background color */
+        .itm {
+            background: yellow;
         }
     </style>
 </body>
