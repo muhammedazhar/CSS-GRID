@@ -6,7 +6,7 @@ In this lecture, we explore techniques for aligning and centering items using CS
 
 - [HTML Code](https://github.com/muhammedazhar/CSS-GRID/blob/master/Lecture17/alignment-and-centering.html)
 - [CSS Styles](https://github.com/muhammedazhar/CSS-GRID/blob/master/Lecture17/alignment-and-centering.html#L22-L40)
-- [Grid Configuration](https://github.com/muhammedazhar/CSS-GRID/blob/master/Lecture17/alignment-and-centering.html#L23-L27)
+- [Grid Configuration](https://github.com/muhammedazhar/CSS-GRID/blob/master/Lecture17/alignment-and-centering.html#L24-L27)
 
 ### Overview
 
