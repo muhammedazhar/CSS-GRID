@@ -23,25 +23,27 @@
     </div>
 
     <style>
+        /* Container styles */
         .container {
-            display: grid;
-            grid-gap: 20px;
-            /* Adding border to demonstrate the grid. */
-            border: 10px solid var(--yellow);
-            /* Updated the column width. */
-            grid-template-columns: repeat(5, 100px);
-            grid-template-rows: repeat(4, 100px);
-            /* The 'justify-items' property centers items along the horizontal axis (row axis). */
-            /* justify-items: center; */
-            /* The 'align-items' property centers items along the vertical axis (column axis). */
-            /* align-items: center; */
-            /* The 'place-items' property is a shorthand for both 'justify-items' and 'align-items'. */
-            place-items: center center;
+            display: grid; /* Defines the container as a grid layout */
+            grid-gap: 20px; /* Adds spacing between grid items */
+            height: 500px; /* Sets the height of the container */
+            border: 10px solid var(--yellow); /* Adds a border to the container using a variable for color */
+            grid-template-columns: repeat(5, 130px); /* Defines the grid layout with 5 columns, each 130px wide */
+            /* justify-items: center; /* commented out as `place-items` is used for both horizontal and vertical alignment */
+            /* align-items: center; /* commented out as `place-items` is used for both horizontal and vertical alignment */
+            place-items: stretch stretch; /* Stretches items to fill their cells in both directions */
+            justify-content: space-between; /* Distributes items evenly with space between them along the main axis (horizontal in this case) */
+            align-content: space-between; /* Distributes items evenly with space between them along the cross axis (vertical in this case) */
         }
-
-        /* Adding a background color to the items */
+        /* Common item styles */
         .itm {
-            background: yellow;
+            background: yellow; /* Sets the background color of all items */
+        }
+        /* 5th item styles */
+        .itm5 {
+            justify-self: center; /* Horizontally centers the 5th item within its cell */
+            align-self: center; /* Vertically centers the 5th item within its cell */
         }
     </style>
 </body>
