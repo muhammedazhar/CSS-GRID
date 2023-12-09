@@ -1,6 +1,6 @@
 ## Lecture 17: Alignment and Centering
 
-In this lecture, we explore techniques for aligning and centering items using CSS Grid. The HTML file for this lecture is located at `Lecture17/alignment-and-centering.html`. Here is my [Notion](https://muhammedazhar.notion.site/Lecture-17-CSS-Grid-Alignment-Centering-fbf725ebcdf34e96beca2bb8d08f89b7?pvs=4) page about this lecture.
+In this lecture, we explore techniques for aligning and centering items using CSS Grid. The HTML file for this lecture is located at `Lecture17/alignment-and-centering.html`. Here is my [Notion](https://muhammedazhar.notion.site/Lecture-17-CSS-Grid-Alignment-Centering-fbf725ebcdf34e96beca2bb8d08f89b7?pvs=4){:target="_blank"} page about this lecture.
 
 ### Contents
 
