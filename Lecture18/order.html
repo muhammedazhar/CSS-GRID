@@ -11,7 +11,9 @@
 <body>
     <div class="container">
         <div class="item logo">LOGO</div>
+
         <div class="item nav">NAV</div>
+
         <div class="item content">
             <p>I'm the Content!</p>
         </div>
@@ -19,8 +21,21 @@
 
     <style>
         .container {
-            display: grid;
-            grid-gap: 20px;
+            display: grid; /* Defines the container as a grid layout */
+            grid-gap: 20px; /* Adds spacing between grid items */
+            grid-template-columns: repeat(10, 1fr); /* Defines 10 equal-width columns */
+        }
+        .logo {
+            grid-column: span 3; /* Spans across 3 columns */
+            order: 2; /* Appears as the second item in the grid */
+        }
+        .nav {
+            grid-column: span 4; /* Spans across 4 columns */
+            order: 1; /* Appears as the first item in the grid */
+        }
+        .content {
+            grid-column: 1 / -1; /* Spans from the first column to the last column */
+            order: 3; /* Appears as the third item in the grid */
         }
     </style>
 </body>
