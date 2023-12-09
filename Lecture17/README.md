@@ -33,7 +33,7 @@ Feel free to explore and modify the code to deepen your understanding of CSS Gri
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](../LICENSE).
 
 ## Questions and Support
 
