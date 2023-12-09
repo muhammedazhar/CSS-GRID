@@ -4,9 +4,9 @@ In this lecture, we explore the concept of re-ordering grid items using CSS Grid
 
 ### Contents
 
-- [HTML Code](Lecture18/order.html)
-- [CSS Styles](Lecture18/order.html#L23-L39)
-- [Grid Configuration](Lecture18/order.html#L24-L26)
+- [HTML Code](order.html)
+- [CSS Styles](order.html#L23-L39)
+- [Grid Configuration](order.html#L24-L26)
 
 ### Overview
 
