@@ -10,25 +10,31 @@
 
 <body>
     <div class="container">
-        <!-- Creating a grid of items from 1 to 40 -->
-        <!-- Note: I'm using PHP avoid the repetition. -->
-        <?php
-        for ($i = 1; $i <= 40; $i++) {
-            echo "<div class='itm itm$i'>$i</div>";
-        }
-        ?>
+        <div class="itm itm1">1</div>
+        <div class="itm itm2">2</div>
+        <div class="itm itm3">3</div>
+        <div class="itm itm4">4</div>
+        <div class="itm itm5">Testing</div>
+        <div class="itm itm6">6</div>
+        <div class="itm itm7">7</div>
+        <div class="itm itm8">8</div>
+        <div class="itm itm9">9</div>
+        <div class="itm itm10">10</div>
     </div>
 
     <style>
         .container {
             display: grid;
             grid-gap: 20px;
-            grid-template-columns: repeat(10, 1fr);
+            /* Adding border to demonstrate the grid. */
+            border: 10px solid var(--yellow);
+            /* Updated the column width. */
+            grid-template-columns: repeat(5, 100px);
             grid-template-rows: repeat(4, 100px);
             /* The 'justify-items' property centers items along the horizontal axis (row axis). */
-            justify-items: center;
+            /* justify-items: center; */
             /* The 'align-items' property centers items along the vertical axis (column axis). */
-            align-items: center;
+            /* align-items: center; */
             /* The 'place-items' property is a shorthand for both 'justify-items' and 'align-items'. */
             place-items: center center;
         }
