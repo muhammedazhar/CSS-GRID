@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
     <div class="albums">
         <div class="album">
             <img class="album__artwork" src="https://source.unsplash.com/random/300x300?v=1">
@@ -92,27 +91,30 @@
                 <p class="album__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed sint doloremque repellat, iste debitis.</p>
             </div>
         </div>
-
     </div>
 
     <style>
+        /* Styling for the albums container */
         .albums {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px; /* I have replaced 'grid-gap:' because it is obsolete. */
+            gap: 20px; /* Gap between album items */
         }
+        /* Styling for each album item */
         .album {
-            background: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-            gap: 10px;
-            padding: 20px;
-            grid-template-columns: 150px 1fr;
-            align-items: center;
-            color: white;
-            
+            display: grid;
+            grid-template-columns: 150px 1fr; /* Two columns - artwork and details */
+            gap: 10px; /* Gap between columns */
+            padding: 20px; /* Padding for each album */
+            background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+            align-items: center; /* Align items vertically at the center */
+            color: white; /* Text color */
+            font-weight: 100; /* Light font weight */
         }
+        /* Styling for album artwork */
         .album__artwork {
-            width: 100%;
+            width: 100%; /* Make the artwork fill its container */
         }
     </style>
 </body>
