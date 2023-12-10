@@ -26,7 +26,7 @@ The HTML file demonstrates how to re-order grid items within a container using t
 
 To run the example locally:
 
-1. Clone this `CSS-GRID` repository.
+1. Clone the `CSS-GRID` repository.
 2. Navigate to the `Lecture18` directory: `cd Lecture18`
 3. Open `order.html` in a web browser.
 
